@@ -1,44 +1,5 @@
-# K-브랜드 HWPX 생성기
+No realtime features
 
-작업 폴더: `C:\file-generator`
+I have to ask my chatGPT to do the tasks
 
-이 채팅에서 작성을 요청하면, AI가 노션의 고객사 자료를 확인하고 문안을 준비한 뒤 이 생성기로 HWPX 두 파일을 만듭니다. 결과를 노션에 올려 달라는 요청이 포함되어 있으면, AI가 두 파일을 ZIP으로 묶어 연결된 노션 도구로 첨부합니다.
-
-요청 예시:
-
-> 노션 첫 시험 페이지 최신 내용으로 신청서·활용계획서를 만들어서 해당 페이지에 올려 주세요.
-
-## 파일 구성
-
-| 파일·폴더 | 역할 |
-| --- | --- |
-| `generate-hwpx.js` | 입력 JSON을 원본 양식의 표에 채워 실제 HWPX 두 개 생성 |
-| `input.json` | AI가 노션 자료를 읽고 준비하는 고객사 정보·문안 |
-| `templates/application.hwpx` | 사용신청서 원본 복사본 |
-| `templates/plan.hwpx` | 활용계획서 원본 복사본 |
-| `result/` | 실행별 HWPX 두 개, 추출 텍스트, 구조 검사 결과 |
-| `package.json`, `package-lock.json`, `node_modules/` | 생성기에 필요한 JavaScript 패키지 |
-| `검증결과.md` | 수행한 검사와 확인되지 않은 범위 |
-
-현재 `input.json`은 풀무원 시험 자료입니다. 새 작업에서는 노션의 최신 자료를 읽고 해당 작업의 입력을 준비해야 합니다.
-
-## 생성기가 맡는 작업
-
-원본 HWPX의 ZIP 패키지를 읽고 내부 XML의 지정 셀을 수정한 뒤 새 HWPX로 저장합니다. 원본 양식과 기존 결과를 덮어쓰지 않고 `result/` 아래에 매번 새 폴더를 만듭니다.
-
-노션 조회, AI 문안 작성, ZIP 첨부와 노션 업로드는 이 채팅에서 수행하는 단계입니다. 생성기에는 노션 인증정보, Codex 호출, 변경 감지, 예약 실행 또는 자동 업로드 코드가 없습니다.
-
-## 지원 범위
-
-- 첨부된 K-브랜드 원본 양식 두 종류 전용입니다. 원본 해시가 달라지면 중단합니다.
-- 상품 1개, 사용국가 최대 3개, 생산공장 최대 4개를 지원합니다.
-- 미입력 필수값은 `확인 필요`로 표시합니다. 동의·서명·직인을 대신하거나 신청일을 생성일로 자동 기재하지 않습니다.
-- 상품 사진 자동 삽입, 여러 상품 별지 반복, 자동 PDF 변환은 미구현입니다.
-- 출력은 검토용입니다. ZIP·XML 구조와 입력값을 검사하며, 한컴의 페이지 렌더링은 수행하지 않습니다. 한컴에서 표·줄바꿈·쪽 배치를 확인해야 합니다.
-
-## 유지보수 참고
-
-Node.js 18 이상과 `jszip@3.10.1`, `xml-js@1.6.11`을 사용합니다. 이 PC에는 필요한 패키지가 설치되어 있습니다. 생성기 실행 옵션은 `--data`, `--out`, `--templates`이며 생략하면 이 폴더의 기본 파일·경로를 사용합니다. `generate({dataPath, outDir, templatesDir})` 함수로도 호출할 수 있습니다.
-
-- [한컴의 HWPX 패키지와 XML 구조 설명](https://tech.hancom.com/hwpxformat/)
-- [한컴 포럼: 텍스트 변경 후 linesegarray 처리](https://forum.developer.hancom.com/t/hwpx-section0-xml/2414)
+whenever my teammates ask me to write the K-BRAND files.
