@@ -1,0 +1,9 @@
+{
+  "name": "k-brand-hwpx-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "첨부 K-브랜드 HWPX 양식 두 개를 JavaScript로 채우는 로컬 생성기",
+  "scripts": { "generate": "node generate-hwpx.js --data input.json --out result" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "jszip": "3.10.1", "xml-js": "1.6.11" }
+}

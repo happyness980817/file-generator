@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-09-14T10:42:50.653Z",
+  "source": {
+    "notionUrl": "https://app.notion.com/p/3db76492f92781e5809ad6d56f2a4128",
+    "lastEditedAt": "2026-09-14T10:25:00.076Z",
+    "classification": "실제/가상 구분 미입력. 노션에 입력된 값으로 생성한 검토용 초안."
+  },
+  "inputSHA256": "7638a44e0b482ffead804e6b78d308790eb2e28a2d38a2a2a495f942a626ecb0",
+  "templateSHA256": {
+    "application": "53c61c99f5daffa8840b5af1c3aa5a998d9a8fb6df738b8ed55b19de975857c8",
+    "plan": "ca22b89b730dc58248ac5f1bdf24e17b9ba33e781ce4410e7b6f27b236541e82"
+  },
+  "engine": "Node.js + JSZip + xml-js (no AI API, no HWP automation)",
+  "scope": "한 상품 / 최대 3개 국가 / 텍스트 및 선택표시",
+  "visualValidation": "생성기 자체는 렌더링하지 않음. 한컴에서 열어 표·쪽 배치 확인 필요.",
+  "files": [
+    {
+      "filename": "풀무원_사용신청서_검토용.hwpx",
+      "bytes": 16518,
+      "sha256": "1bd319e11922d47b00224b5b1e7838b4da741e34e827b84f984564cd9bae9739",
+      "validation": {
+        "zipCRC": "pass",
+        "xmlFilesParsed": 8,
+        "styleReferences": "pass",
+        "manifestReferences": "pass",
+        "sectionCount": 1,
+        "tableCount": 5,
+        "verifiedCells": 42,
+        "mimetypeFirstStored": true,
+        "unchangedPackageEntries": "pass"
+      },
+      "warnings": [
+        "사업과제: 선택 확인 필요",
+        "수행업체 연락처: 확인 필요",
+        "사용국가: 확인 필요",
+        "수출규모(단위·기간 포함): 확인 필요",
+        "상품분류: 확인 필요",
+        "보유인증: 확인 필요",
+        "상표현황: 확인 필요",
+        "사진 자동 삽입 미구현: 한글에서 상품 전면·후면 사진을 추가해야 합니다.",
+        "인증 보유 여부: 선택 확인 필요",
+        "생산지: 선택 확인 필요",
+        "생산형태: 선택 확인 필요",
+        "공장 제조국: 확인 필요",
+        "공장 생산형태: 확인 필요",
+        "국가별 상표상태: 선택 확인 필요",
+        "상표번호/미출원 사유: 확인 필요",
+        "부착 예정수량: 확인 필요",
+        "국가별 사용방식: 선택 확인 필요",
+        "신청일 미입력: 원본의 날짜 빈칸 유지",
+        "고객사 개인정보 동의·서명·직인은 자동 작성하지 않았습니다."
+      ]
+    },
+    {
+      "filename": "풀무원_활용계획서_검토용.hwpx",
+      "bytes": 11727,
+      "sha256": "afb7785e34862ee0c6a8bea7d8b47f29e4e62042f77d67b9fd0e4f677787e33f",
+      "validation": {
+        "zipCRC": "pass",
+        "xmlFilesParsed": 8,
+        "styleReferences": "pass",
+        "manifestReferences": "pass",
+        "sectionCount": 1,
+        "tableCount": 3,
+        "verifiedCells": 9,
+        "mimetypeFirstStored": true,
+        "unchangedPackageEntries": "pass"
+      },
+      "warnings": [
+        "활용국가: 확인 필요",
+        "활용채널: 선택 확인 필요",
+        "분쟁 이력: 선택 확인 필요",
+        "신청일 미입력: 원본의 날짜 빈칸 유지",
+        "고객사 개인정보 동의·서명·직인은 자동 작성하지 않았습니다."
+      ]
+    }
+  ]
+}
