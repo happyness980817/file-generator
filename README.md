@@ -1,4 +1,4 @@
-No realtime features
+No realtime features.
 
 I have to ask my chatGPT to do the tasks
 
